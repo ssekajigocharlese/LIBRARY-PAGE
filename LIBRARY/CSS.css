@@ -1,0 +1,116 @@
+nav{
+    width: 100%;
+    height: 60px;
+    background: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    background: black;
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    padding: 10px 30px;
+    display: inline-block;
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 20px 25px;
+    color: white;
+}
+.img img{
+    width: 20%;
+    display: block;
+    margin: 0px auto;
+    border-radius: 60px;
+    height: 30%;
+    text-align: center;
+}
+.img{
+    background: blueviolet;
+}
+.title ul{
+list-style: none;
+display: flex;
+background: red;
+}
+.title ul li{
+    padding: 10px 30px;
+    display: inline-block;
+    position: relative;
+}
+.title ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 20px 25px;
+    color: white;
+}
+.jr{
+    background: burlywood;
+}
+.title ul li ul .cha{
+    display: block;
+}
+.title ul li ul .cha{
+    width: 100%;
+    background: red;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.title ul li a:hover{
+    background: #112c66;
+}
+.title ul li:hover ul.cha{
+    display: block;
+}
+.cha{
+    text-align: end;
+    background: burlywood;
+}
+.cha ul li{
+list-style: none;
+padding: 16px 20px;
+}
+.AI{
+    background: black;
+    color: white; 
+    font-size: large;
+}
+.ty{
+    color: read;
+}
+.NT{
+    background: blanchedalmond;
+    color: red;
+}
+.IG{ 
+    color: red;
+    background-color: aliceblue;
+}
+.gy p{
+    background: red;
+    color: red;
+    padding: 0%;
+}
+.gu p{
+    background: yellow;
+    color: yellow;
+    padding: 0%;
+
+}
+.gi{
+    background: black;
+    color: white;
+    padding: 0%;
+}
+.tp{
+float: left;
+}
